@@ -1,2 +1,172 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+
+<!Nyhjemmeside html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyhjemmeside</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="toppen">
+      <h1>Velkommen til min hjemmeside...</h1>
+    </header>
+
+    <section>
+      <header class="hero">
+        <h2>Om mig</h2>
+      </header>
+      <p>
+        <strong> HEJ... Mit navn er Martin Lind Svik Jensen...</strong>
+      </p>
+    </section>
+
+    <section>
+      <header class="hero">
+        <h2>Studie</h2>
+      </header>
+      <p>
+        <u>
+          Jeg er igang med at tage grundforløbet som mediegrafiker. Det gør jeg
+          i Kolding på Hansenberg.</u
+        >
+        <a href="Ivancevic.png">Se billedet af Ivancevic</a>
+      </p>
+      <article>
+        <header class="hero">
+          <h2>CV</h2>
+        </header>
+        <p>
+          <mark>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            officiis repellendus quo reiciendis excepturi exercitationem!
+            Cupiditate sequi eos natus ea.
+          </mark>
+        </p>
+
+        <header class="hero">
+          <h2>Design</h2>
+        </header>
+        <p>
+          <del>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad,
+            ducimus! Inventore</del
+          >,<small>
+            adipisci odio cum maiores voluptatibu enim accusantium veniam
+            distinctio </small
+          >.
+        </p>
+        <header class="hero">
+          <h2>ODENSE BOLDKLUB</h2>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+          consequuntur necessitatibus quod consequatur veniam hic illum vero
+          dolores vitae enim.
+        </p>
+
+        <ul type="disc">
+          <i>
+            <li>Nu med dark mode</li>
+            <li>Nu med green mode</li>
+            <li>Nu med light mode</li>
+            <li>Nu med sweet mode</li>
+            <li>Nu med offline mode</li>
+          </i>
+        </ul>
+
+        <img src="ob_logo.png" alt="Odense Boldklub" />
+
+        <video
+          src="Space2.mp4"
+          controls
+          poster="Ivancevic.png"
+          width="600"
+        ></video>
+
+        <h3>Forhandler</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error
+          ut enim? Quis, quo. Adipisci fugiat quia corporis saepe enim.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <h2 id="address">vores adresse</h2>
+      <address>vranderrupvej 90, 6000 Kolding</address>
+
+      <a href="#">til toppen</a>
+    </footer>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://google.com" target="_blank">dette er et link</a>
+        </li>
+        <li><a href="/css/style.css" target="_blank">se min CSS fil.</a></li>
+        <li><a href="mailto:marjen100@gmail.com">send mig en mail</a></li>
+        <li><a href="tel: 42480792">42480792</a></li>
+        <li><a href="#address">se vores adresse</a></li>
+        <li><a href="mailto:mainmail@gmail.com">Kontakt os via mail</a></li>
+      </ul>
+      <form method="post" action="">
+        <label for="clientname"
+          >Skriv din mail her:
+          <input
+            type="text"
+            name="clientname"
+            id="clientname"
+            placeholder="Din mail"
+          />
+        </label>
+        <label for="">
+          Vælg en dato:
+          <input type="date" name="nextmeeting" id="nextmeeting" />
+        </label>
+
+        <fieldset>
+          <legend>Billet køb:</legend>
+          <label
+            >Sesonkort:
+            <input type="radio" name="clientname2" id="design" /> </label
+          ><label
+            >Enkelt Billet:
+            <input type="radio" name="clientname2" id="web" /> </label
+          ><label
+            >VIP Billet:
+            <input type="radio" name="clientname2" id="SEO" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Vælg OB trøje:</legend>
+          <label
+            >Hjemmebane trøje:
+            <input
+              type="radio"
+              name="clientname"
+              id="Hjemmebane trøje"
+            /> </label
+          ><label
+            >Udebane trøje:
+            <input type="radio" name="clientname" id="Udebane trøje" /> </label
+          ><label
+            >Målmands trøje :
+            <input type="radio" name="clientname" id="Målmands trøje" />
+          </label>
+        </fieldset>
+        <label>
+          Skriv en bemærkning
+          <textarea placeholder="Skriv en bemærkning"></textarea>
+        </label>
+
+        <fieldset>
+          <button type="reset">Slet alt</button>
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </nav>
+  </body>
+</html>
+ 
